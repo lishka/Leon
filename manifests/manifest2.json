@@ -1,0 +1,127 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://lishka.github.io/Leon/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "León, Archivo Histórico Diocesano, s.n.",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "9th/10th century, perhaps southern Germany (provenance: Bohemia)",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "León, Archivo Histórico Diocesano",
+  "sequences" : [ {
+    "@id" : "http://cc672454-cd2d-443c-b957-e91838b3d547",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://eec95e8b-66ea-4431-b661-f3b39bba7d38",
+      "@type" : "sc:Canvas",
+      "label" : "1r",
+      "height" : 2857,
+      "width" : 3460,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://06670e86-2891-4c38-ae71-7e5e4e6c81e1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/F1_202205/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/F1_202205",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2857,
+          "width" : 3460
+        },
+        "on" : "http://eec95e8b-66ea-4431-b661-f3b39bba7d38"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://dab1a1d2-0e9d-4df9-ac22-53e1cf97e2db",
+      "@type" : "sc:Canvas",
+      "label" : "1v",
+      "height" : 2746,
+      "width" : 3435,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://fc8f97ea-75e9-4f1b-b01e-18c48e5b8769",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/f2_20220519/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/f2_20220519",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2746,
+          "width" : 3435
+        },
+        "on" : "http://dab1a1d2-0e9d-4df9-ac22-53e1cf97e2db"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://35a6c376-0019-4ef2-b065-980ef1b6342a",
+      "@type" : "sc:Canvas",
+      "label" : "2r",
+      "height" : 1144,
+      "width" : 3467,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ab647bd1-1757-40ea-9ec2-4492558456ea",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img20200611_10210154/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img20200611_10210154",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1144,
+          "width" : 3467
+        },
+        "on" : "http://35a6c376-0019-4ef2-b065-980ef1b6342a"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://1388bc71-3a6b-47d1-ab00-352c15f4a53e",
+      "@type" : "sc:Canvas",
+      "label" : "2v",
+      "height" : 1148,
+      "width" : 3495,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0cac03d5-a728-4109-a81a-e2e9aa99009c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img20200611_10185666/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img20200611_10185666",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1148,
+          "width" : 3495
+        },
+        "on" : "http://1388bc71-3a6b-47d1-ab00-352c15f4a53e"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
